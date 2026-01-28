@@ -17,6 +17,10 @@ import ProductManagement_Beginners from "./pages/ProductManagement_Beginners";
 import ProductManagementBeginners from "./pages/ProductManagementBeginners.jsx";
 import ResourceManagementDigitalEra from "./pages/ResourceManagementDigitalEra.jsx";
 import Login from "./Components/Login";
+// import About from "./pages/About.jsx";
+import OurStory from "./pages/OurStory.jsx";
+import OurDifference from "./pages/OurDifference.jsx";
+import Career from "./Components/Career.jsx";
 // import OurServices from "./Components/OurServices";
 const App = () => {
   return (
@@ -43,6 +47,12 @@ const App = () => {
         {/* <Route path="/services" element={<OurServices />} />
         <Route path="/services/:slug" element={<OurServices />} /> */}
         <Route path="/login" element={<Login />} />
+        {/* <Route path="/about" element={<About />} /> */}
+        <Route path="/about/our-story" element={<OurStory />} />
+        <Route path="/about/our-difference" element={<OurDifference />} />
+        <Route path="/career" element={<Career />} />
+
+
       </Routes>
       
     </BrowserRouter>

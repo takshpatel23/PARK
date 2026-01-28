@@ -22,7 +22,7 @@ const Footer = () => {
             <a href="/#Home" className="hover:text-red-400 cursor-pointer ">Home</a>
             <a href="/#About" className="hover:text-red-400 cursor-pointer ">About</a>
             <a href="/#Recent" className="hover:text-red-400 cursor-pointer ">Recent Post</a>
-            <a href="/#Career" className="hover:text-red-400 cursor-pointer">Careers</a>
+            <a href="/career" className="hover:text-red-400 cursor-pointer">Careers</a>
           </ul>
         </div>
         <div className=''>

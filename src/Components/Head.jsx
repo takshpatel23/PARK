@@ -22,8 +22,6 @@ const Head = () => {
 
   return (
     <div className="relative min-h-screen w-full overflow-hidden">
-
-      {/* 🔥 Background image fade motion */}
       <AnimatePresence>
         <motion.div
           key={current}
@@ -36,7 +34,6 @@ const Head = () => {
         />
       </AnimatePresence>
 
-      {/* overlay */}
       <div className="absolute inset-0 bg-black/50 z-10" />
 
       <div className="relative z-20">
@@ -44,7 +41,6 @@ const Head = () => {
 
         <div className="container mx-auto text-center flex flex-col justify-center items-center min-h-screen px-6">
 
-          {/* ✨ Text slide + fade */}
           <motion.h1
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
@@ -55,7 +51,6 @@ const Head = () => {
             organisation and business success.
           </motion.h1>
 
-          {/* 🚀 Button pop animation */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}

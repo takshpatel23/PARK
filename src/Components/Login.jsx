@@ -18,10 +18,8 @@ const Login = () => {
       return;
     }
 
-    // ✅ Store user data
     localStorage.setItem("username", username);
 
-    // Redirect to home
     navigate("/");
   };
 

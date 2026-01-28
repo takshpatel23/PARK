@@ -6,12 +6,8 @@ const Product_Management = () => {
   return (
     <div className="bg-gray-50 text-gray-800">
       <Header />
-
-
       <div className="pt-32 pb-10 px-6 lg:px-32 bg-gradient-to-r from-slate-900 to-slate-800 text-white">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-
-    
           <div>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
               Product Management Consulting
