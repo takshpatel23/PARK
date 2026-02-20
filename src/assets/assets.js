@@ -177,19 +177,19 @@ export const productServices = [
 export const productFeatures = [
   {
       title: "Market Research & Insights",
-      desc: "Analyze customers, competitors, and market trends to validate product opportunities."
+      desc: "Market Research & Insights involve collecting, analyzing, and interpreting data regarding consumers, competitors, and the industry to drive strategic business decisions. It combines primary (direct, new) and secondary (existing, external) information to identify trends, evaluate product performance, map consumer behavior, and uncover opportunities for growth and competitive advantage. "
     },
     {
       title: "Product Strategy & Roadmap",
-      desc: "Define clear product vision, goals, and roadmaps aligned with business objectives."
+      desc: "Product Strategy & Roadmap define the \"why,\" \"what,\" and \"when\" of a product, linking long-term vision to actionable execution. Key components include a clear vision, value proposition, target market, business goals, and prioritized initiatives/features mapped to a timeline. These documents align stakeholders and guide teams by detailing strategic goals, milestones, and release plans."
     },
     {
       title: "Execution & Delivery",
-      desc: "Drive agile execution with cross-functional teams to deliver products efficiently."
+      desc: "Execution and delivery represent the finalization of a contract or project through signing and fulfillment, ensuring legal binding and tangible output. It contains actions like signing by authorized parties, transferring agreement possession, and implementing strategic plans to meet objectives. It also involves resource allocation, monitoring, and quality assurance. "
     },
     {
       title: "Growth & Optimization",
-      desc: "Track performance, gather feedback, and continuously improve product value."
+      desc: "Growth and optimization focus on maximizing business performance by identifying revenue-draining bottlenecks, testing solutions (e.g., A/B testing), and improving efficiency in areas like marketing, sales, and operations. It involves data-driven decisions to increase customer acquisition, retention, and conversion rates, while optimizing costs and resources. "
     },
 ];
 export const assetFeatures = [
@@ -246,19 +246,19 @@ export const knowledgeServices = [
 export const AIFeatures = [
   {
     title: "Data Strategy & Readiness",
-    desc: "Assess data quality, define AI goals, and prepare structured and unstructured datasets for reliable model outcomes."
+    desc: "Data Strategy & Readiness initiatives are designed to turn raw data into a secure, trusted, and actionable asset, forming the foundation for AI, machine learning, and business analytics. While a Data Strategy defines the long-term plan, goals, and roadmap for utilizing data to meet business objectives, Data Readiness acts as the \"how-to\" assessment, ensuring the data is clean, compliant, and prepared for immediate use. ",
   },
   {
     title: "Model Development",
-    desc: "Design, train, and validate machine learning and deep learning models tailored to specific business use cases."
+    desc: "Model development is an iterative, multi-stage process focused on creating, training, testing, and deploying algorithms to solve complex problems and deliver business value. It involves transforming raw data into actionable insights through rigorous engineering, scientific, and governance processes. "
   },
   {
     title: "AI Deployment",
-    desc: "Integrate AI models into real-world applications using scalable, secure, and production-ready architectures."
+    desc: "AI deployment is the critical process of moving a trained machine learning model from a development environment into a live, real-world production environment. It converts static code into a functional, integrated tool that can make real-time decisions, automate tasks, or provide insights. "
   },
   {
     title: "Continuous Learning",
-    desc: "Monitor model performance, retrain with new data, and continuously improve accuracy and business impact."
+    desc: "Continuous learning is the ongoing, self-motivated, and voluntary pursuit of knowledge for professional or personal development. It involves a mix of formal training (courses, certifications) and informal methods (mentoring, reading, on-the-job training) to upgrade skills, foster adaptability, and drive innovation. "
   }
 ];
 export const AIServices = [

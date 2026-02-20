@@ -7,7 +7,9 @@ const AI_Machine = () => {
   return (
     <div className="bg-[#E5F4FF] text-[#003A66]">
 
-      <Header />
+      <div className="relative z-50">
+        <Header />
+      </div>
 
       {/* HERO */}
       <div className="pt-32 pb-24 px-6 lg:px-32 bg-gradient-to-br from-[#001D33] to-[#001424] text-white">
@@ -71,7 +73,7 @@ const AI_Machine = () => {
             Our AI & ML Approach
           </h2>
 
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {AIFeatures.map((item, index) => (
               <div
                 key={index}
@@ -79,8 +81,7 @@ const AI_Machine = () => {
               >
                 <h3 className="text-xl font-semibold mb-3 text-[#66BDFF]">{item.title}</h3>
                 <p className="text-[#CCE9FF] text-sm">
-                  Scalable, secure, and performance-focused AI practices built
-                  for long-term success.
+                  {item.desc}
                 </p>
               </div>
             ))}
