@@ -61,7 +61,7 @@ const Product_Management = () => {
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl text-white font-bold mb-12">Our Product Management Approach</h2>
 
-          <div className="grid md:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             {productFeatures.map((item, index) => (
               <div
                 key={index}

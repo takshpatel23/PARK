@@ -41,13 +41,13 @@ const Footer = () => {
           <p className="text-sm mt-2">📞 +91 6355212113</p>
           <p className="text-sm mt-2">✉️ parkmanagement@gmail.com</p>
           <div className="flex gap-4 mt-5">
-            <a href="#" className="p-2 rounded-full bg-gray-500 hover:bg-blue-600 transition">
+            <a href="#" className="p-2 rounded-full bg-blue-600 text-white duration-300 hover:bg-blue-700 hover:scale-120 transition">
               <FaFacebookF />
             </a>
-            <a href="#" className="p-2 rounded-full bg-gray-500 hover:bg-pink-500 transition">
+            <a href="#" className="p-2 rounded-full duration-300 bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 hover:scale-120 hover:opacity-90 transition">
               <FaInstagram />
             </a>
-            <a href="#" className="p-2 rounded-full bg-gray-500 hover:bg-sky-500 transition">
+            <a href="#" className="p-2 rounded-full bg-[#1DA1F2] duration-300 hover:bg-[#1A91DA] hover:scale-120 transition">
               <FaTwitter />
             </a>
           </div>

@@ -6,7 +6,9 @@ import { assets, programmingFeatures, programmingServices, programmingUseCases }
 const Programming = () => {
   return (
     <div className="bg-[#E5F4FF] text-[#003A66]">
-      <Header />
+      <div className="relative z-50">
+        <Header />
+      </div>
 
       {/* HERO – Simple Dark */}
       <section className="pt-36 pb-28 px-6 lg:px-32 bg-gradient-to-br from-[#001D33] to-[#001424]">

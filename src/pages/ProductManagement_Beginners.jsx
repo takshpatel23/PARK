@@ -32,9 +32,9 @@ const ProductManagement_Beginners = () => {
           </div>
 
           <img
-            src={assets.Beginners}
+            src={assets.productManagement}
             alt="PM"
-            className="rounded-3xl shadow-2xl"
+            className="rounded-3xl shadow-2xl h-90"
           />
         </div>
       </section>

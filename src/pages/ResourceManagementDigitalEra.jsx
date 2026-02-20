@@ -36,7 +36,7 @@ const ResourceManagementDigitalEra = () => {
             </a>
           </div>
 
-          <div className="hidden md:flex justify-center">
+          <div className="hidden md:flex h-full mt-20 justify-center">
             <img
               src={assets.resources2}
               alt="Resource Management"
